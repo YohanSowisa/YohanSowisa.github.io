@@ -16,3 +16,5 @@ btnChange.onclick = function() {
 btnDef.onclick = function() {
   body.style.background = 'initial'
 }
+
+console.log('yang baca ganteng ih ❤️')
