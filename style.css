@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, button {
+  padding: 6px 10px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  color: #222;
+  outline: none;
+  background: #fff;
+}
+button {
+  cursor: pointer;
+}
