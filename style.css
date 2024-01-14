@@ -3,9 +3,6 @@ body {
   place-items: center;
   min-height: 100vh;
 }
-marquee {
-position: absolute;
-}
 .input {
   display: flex;
   flex-direction: column;
