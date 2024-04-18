@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css">
+  <title>My To Do List App</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>To Do List App</h2>
+    <div class="wrapper">
+      <div class="user-field">
+        <label>Add Activities</label>
+        <div class="input-box">
+          <input type="text" id="act-input" contenteditable="false" spellcheck="false" autofocus>
+          <button id="add">Add</button>
+          <button id="clear">Clear</button>
+        </div>
+      </div>
+      <div class="activities">
+        <div class="act-div">
+          <i class="fa-solid fa-check"></i>
+          <p id="act-text">Da Activity.</p>
+          <div class="options">
+            <i class="fa-solid fa-pencil" id="edit"></i>
+            <i class="fa-solid fa-trash" id="delete"></i>
+          </div>
+        </div>
+        <div class="act-div">
+          <i class="fa-solid fa-check"></i>
+          <p id="act-text">Da Activity.</p>
+          <div class="options">
+            <i class="fa-solid fa-pencil" id="edit"></i>
+            <i class="fa-solid fa-trash" id="delete"></i>
+          </div>
+        </div>
+        <div class="act-div">
+          <i class="fa-solid fa-check"></i>
+          <p id="act-text">Da Activity.</p>
+          <div class="options">
+            <i class="fa-solid fa-pencil" id="edit"></i>
+            <i class="fa-solid fa-trash" id="delete"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <label class="created">Created: Wednesday, 14 June 2023</label>
+    <label class="copyright">© 2023-2023 | Yoyo.</label>
+    <label class="finished">Finished: Thursday, 22 June 2023</label>
+  </footer>
+
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
