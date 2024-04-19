@@ -213,3 +213,29 @@ footer label {
   color: rgba(0, 0, 0, 0.575);
   font-weight: 500;
 }
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  footer label {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container h2 {
+    transform: scale(.9);
+  }
+  .wrapper {
+    transform: scale(.8);
+  }
+  footer label {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wrapper {
+    transform: scale(.75);
+  }
+  footer label {
+    font-size: 8px;
+  }
+}
